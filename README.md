@@ -24,8 +24,7 @@
 - `src/catalog.py`: اتصال MTProto فقط با Bot Token و خواندن کاتالوگ
 - `src/catalog_schema.py`: نرمال‌سازی و فیلتر Giftهای معمولی؛ بدون شبکه و قابل تست
 - `data/gifts.json`: خروجی عمومی کاتالوگ
-- `.github/workflows/sync-catalog.yml`: اجرای دستی یا زمان‌بندی‌شده هر ۶ ساعت
-- `.github/workflows/tests.yml`: تست منطق کاتالوگ و سازگاری کلاس‌های MTProto
+- `.github/workflows/sync-catalog.yml`: اجرای دستی یا زمان‌بندی‌شده هر 5 دقیقه- `.github/workflows/tests.yml`: تست منطق کاتالوگ و سازگاری کلاس‌های MTProto
 
 ## GitHub Actions Secrets
 
